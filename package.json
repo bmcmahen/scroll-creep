@@ -17,7 +17,8 @@
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
-    "flow": "flow"
+    "flow": "flow",
+    "deploy": "gh-pages -d demo/dist"
   },
   "dependencies": {
     "element-in-view": "^0.1.0",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "flow-bin": "^0.74.0",
+    "gh-pages": "^1.2.0",
     "nwb": "0.21.x",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"

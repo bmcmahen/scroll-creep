@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe scroll-spy here.
+A super simple scroll-spy component for React.
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
@@ -44,9 +44,9 @@ const ScrollExample = () => (
 )
 ```
 
-| Props           | Type                   | Description                                                             |
-| --------------- | ---------------------- | ----------------------------------------------------------------------- |
-| match           | 'first', 'last', 'all' | match either the first, last, or all visible elements. **default: all** |
-| elements        | Array<string>          | An array of ids of elements to monitor.                                 |
-| children        | (Array<string>         | string) => React.Node                                                   | A render callback containing elements visible. |
-| scrollContainer | query string           | Defaults to window.                                                     |
+| Props           | Type                                  | Description                                                             |
+| --------------- | ------------------------------------- | ----------------------------------------------------------------------- |
+| match           | 'first', 'last', 'all'                | match either the first, last, or all visible elements. **default: all** |
+| elements        | Array<string>                         | An array of ids of elements to monitor.                                 |
+| children        | (Array<string>, string) => React.Node | A render callback containing elements visible.                          |
+| scrollContainer | query string                          | Defaults to window.                                                     |
