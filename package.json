@@ -1,7 +1,7 @@
 {
-  "name": "scroll-spy",
+  "name": "scroll-creep",
   "version": "1.0.0",
-  "description": "scroll-spy React component",
+  "description": "a super simple scroll-spy React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -32,7 +32,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
-  "author": "",
+  "author": "Ben McMahen",
   "homepage": "",
   "license": "MIT",
   "repository": "",
